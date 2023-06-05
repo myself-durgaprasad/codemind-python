@@ -1,2 +1,4 @@
 n=input().split()
-print(*(n[::-1]))
+for i in n:
+    print(*(n[::-1]))
+    break
